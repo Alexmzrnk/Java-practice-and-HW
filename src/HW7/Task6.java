@@ -14,7 +14,16 @@ public class Task6 {
         }
         System.out.println(sum);
 
+        System.out.println();
 
+        int sum1=0;
+
+
+        for (int num:numbers){
+            sum1=sum1+num;
+
+        }
+        System.out.println(sum1);
 
     }
 }
