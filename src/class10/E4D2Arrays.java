@@ -10,7 +10,7 @@ public class E4D2Arrays {
 
         for (int j=0; j<3;j++){
             //getting the complete oneD array from 2D array
-            int[] arr1 = matrix[0+j];
+            int [] arr1=matrix[j];
             for (int i = 0; i < arr1.length; i++){
                 //going over all thw elemnts from the one D array
                 System.out.println(arr1[i]);
