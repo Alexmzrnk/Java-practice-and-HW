@@ -1,13 +1,15 @@
 package class13;
 
-public class E4StringDemo {
+public class Task2 {
     public static void main(String[] args) {
 
         String str="Today is Sunday. we have java class. we like java";
 
         String [] strArr=str.split("[.!?]");
-        System.out.println(strArr.length);
-        System.out.println(strArr[2].trim());
+        str = str.replaceAll(" ", "");
+        //System.out.println(str.replace(" ", ""));
+
+        System.out.println(str);
 
 
     }

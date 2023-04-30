@@ -10,7 +10,7 @@ public class Task1 {
 
         String sentence = "This is sentence i want to reverse";
 
-        String[] words = sentence.split("\\s");
+        String[] words = sentence.split(" ");
         String reverse = "";
 
         for (int i = 0; i < words.length; i++) {
