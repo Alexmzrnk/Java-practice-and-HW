@@ -32,6 +32,7 @@ Print out  total number of students */
         obj3.numberOfStudents++;
 
         System.out.println(numberOfStudents);
+        System.out.println();
 
 
 
